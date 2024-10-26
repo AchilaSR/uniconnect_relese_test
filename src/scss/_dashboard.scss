@@ -1,0 +1,77 @@
+.dashboard-widget {
+    height: 100% !important;
+    overflow-y: hidden;
+    cursor: grab;
+
+    &:active{
+        cursor: grabbing;
+    }
+
+    .card-body {
+        overflow-y: auto;
+
+        // div {
+        //     overflow: hidden;
+        // }
+    }
+
+    .card-header {
+        a {
+            @extend .btn;
+            @extend .btn-outline-primary;
+            margin-left: 5px;
+            font-size: 10px;
+            height: 20px;
+            width: 20px;
+            line-height: 20px;
+            text-align: center;
+            padding: 0;
+            cursor:  pointer;
+
+            &.danger {
+                @extend .btn-outline-danger;
+            }
+        }
+    }
+}
+
+.zoom-2 {
+    .dashboard-widget {
+        small {
+            font-size: 0.6vw;
+        }
+
+        h4 {
+            font-size: 1.1vw;
+        }
+
+        th, td{
+            font-size: 1rem;
+        }
+    }
+}
+
+
+.zoom-3 {
+    .dashboard-widget {
+        .text-muted{
+            color: black !important;
+        }
+
+        small {
+            font-size: 0.6vw;
+            font-weight: 700;
+            color: black;
+        }
+
+        h4 {
+            font-size: 1.1vw;
+            font-weight: 700;
+        }
+
+        th, td{
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+}

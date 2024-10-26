@@ -1,0 +1,16 @@
+$fa-font-path:        "./fonts";
+$sidebar-width: 250px;
+
+@import "../theme/colors.scss";
+@import "@coreui/coreui/scss/coreui.scss";
+@import "@coreui/coreui/scss/_dropdown-menu-right.scss";
+@import 'react-redux-toastr/src/styles/index.scss';
+@import "font-awesome/scss/font-awesome.scss";
+@import 'react-dates/lib/css/_datepicker';
+@import 'rc-slider/assets/index';
+@import '/node_modules/react-grid-layout/css/styles.css';
+@import '/node_modules/react-resizable/css/styles.css';
+@import "csv-importer";
+@import "custom";
+@import "dashboard";
+@import "ie-fix";
